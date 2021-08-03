@@ -21,6 +21,7 @@ down_frame.pack(padx=10, pady=10)
 entry = tk.Entry(upper_frame, width=20, font=("d2coding", 18), borderwidth=5)
 entry.pack()
 entry.insert(0, "")
+##
 ## 버튼 클릭 시 동작 함수 정의
 ###일반적 숫자 버튼 클릭시 엔트리 현재값과 새롭게 입력된 값을 결합함
 def button_clicked(number):
